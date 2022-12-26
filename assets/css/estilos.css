@@ -1,0 +1,435 @@
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	
+	overflow-x: hidden !important;
+	
+
+}
+
+p{
+	font-size: 1.4rem;
+	margin:0 0 24px 0
+}
+
+/* header{
+    
+	left: 5%;
+	position:absolute;
+    
+	top:2rem;
+	width: 25%;
+	z-index: 1
+}
+
+ */
+.ancho{
+
+    width: 80%;
+    height: 70px;
+    background: red;
+    margin: auto;
+}
+/* .logo {
+    left: 10%;
+    display: block;
+    width: 196px;
+    height: 100px;
+    
+	background-image:url(../assets/images/logo_final.jpg);
+    float: left;
+    padding: 50px;
+    position:initial;
+  } */
+
+/* nav ul{
+    
+	display: table;
+	list-style-type: none;
+	width:100%;
+    
+}
+
+nav li{
+    
+	display: table-cell;
+	text-align: center
+}
+
+nav li a{
+  background-color:rgba(255, 255, 255, 0.586);
+	
+	color:rgb(0, 0, 0);
+	font-family: helvetica;
+	font-size: 18px;
+    font-weight: bold;
+	padding: 10px;
+	text-decoration: none;
+    float: left;
+}
+
+nav li a:hover{
+	
+	color: gold;
+	-webkit-text-stroke: .5px black;
+	
+  } */
+
+ .parallas, .main, .texto{margin:0 auto}
+
+.parallax{
+	
+	background-position: center;
+
+	background-size:  cover;
+	height:40rem;
+	max-width: 100%;
+	/*position: relative;
+	 width: 100% !important;
+	display: block !important; */
+}
+
+.img-header{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:10rem;
+	max-width: 100%;
+	position: relative
+}
+ 
+
+.texto-interior{
+	color:rgb(0, 0, 0);
+	font-size: 2rem;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top:40%;
+	width: 80%
+}
+
+.texto-interior2{
+	color:rgb(0, 0, 0);
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	font-family: helvetica;
+}
+
+.texto-interior3{
+	color:rgb(0, 0, 0);
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: left;
+	font-family: helvetica;
+	margin-left: 200px;
+}
+
+.texto a { 
+	color: gold; 
+	font-size: 25px;
+	font-weight: bold;
+	-webkit-text-stroke: .6px black;
+	text-decoration: none;
+}
+
+
+
+.texto iframe{
+	
+	
+	width: 100%;
+	border: 2px solid black; 
+    
+  }  
+
+.centrar{
+	margin:10px auto;
+	display:block;
+}
+
+.img-portada{background-image:url(../assets/images/portada.jpeg)}
+
+.img-historia{background-image:url(../img/historia.jpeg)
+	/* width: 100% !important;
+	display: block !important; */}
+
+.img-tres{background-image:url(../img/foto_equipo2.jpg)}
+
+.parallax .img-historia {
+	width: 100% !important;
+	display: block !important;
+}
+
+.texto{
+	padding:5%;
+	width: 90%;
+}
+
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+	font-family: helvetica;
+}
+
+.content h1 {
+	text-align: center;
+	font-family: helvetica;
+}
+
+
+/* form {
+    margin:0 auto;
+    width:400px;
+}
+
+input, textarea {
+	width:380px;
+	height:27px;
+	background:#ffffff;
+	border:2px solid #000000;
+	padding:10px;
+	margin-top:5px;
+	font-size:10px;
+	color:#030303;
+}
+ */
+textarea {
+	height:150px;
+}
+
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+	background:gold;
+	font-family: helvetica;
+}
+
+footer{
+	
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111 !important;
+    height: auto;
+    width: 100vw;
+    padding-top: 20px;
+    color: #fff;
+	font-family: helvetica;
+}
+.fondo{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 20px;
+    color: #fff;
+	font-family: helvetica;
+}
+
+.footer-content{
+    display:block;
+    text-align: center;
+}
+
+.footer-content a img{
+    max-width: 500px;
+    margin: 5px ;
+    margin-right: 20px;
+    font-size: 28px;
+    color: #cacdd2;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 2px auto;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.footer-bottom{
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.footer-bottom p{
+	float: center;
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   color:gold !important;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+	 text-transform: uppercase;
+	 opacity: .4;
+	 font-weight: 200;
+ }
+
+ .footer-menu{
+	float: left;
+  }
+  
+  .footer-menu ul{
+	display:inline-block;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: inline-block;
+  }
+  
+  .footer-menu ul li a{
+	color: #f7f3f3;
+	text-decoration: none;
+	font-weight: bold;
+  }
+  
+  .footer-menu ul li a:hover{
+	color:gold;
+  }
+
+  .page-footer {
+   
+    padding-top: 15px;
+    
+}
+
+  .icon {
+	/* float:left; */
+	background-color: brown;
+  }
+
+  .icon p{
+	font-size: 16px;
+	text-decoration: none;
+	
+
+}
+  .equipo{
+	display: block;
+	
+	width: 100%;
+  }
+
+  .equipo-texto{
+	width: 80%;
+	padding-top: 20px;
+	list-style: none;
+	/* background:#9e1515; */
+	/* display: inline-block; */
+	float: right;
+	}
+
+  .equipo-img{
+	height:100px;
+	width: 20%;
+	/* background:#390bb8; */
+	display: inline-block;
+	text-align: center;
+	}
+
+.clean-navbar .navbar-nav .nav-link {
+  font-weight: 520;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: gold;
+}
+
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: gold;
+    border-color: gold;
+}
+
+.text-info {
+    --bs-text-opacity: 1;
+    color: gold !important;
+	
+	/* font-weight: bold; */
+}
+
+.clean-block.clean-form form {
+    border-top: 2px solid gold;
+   
+}
+
+	
+.logo{
+	background: url(../img/logo_final2.jpg);
+	height: 70px;	
+}   
+
+.clean-block2 .block-heading {
+   
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.clean-block.clean-info {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: inherit;
+	height: 410px;
+}
+
+.clean-block.clean-hero {
+    min-height: 300px;
+}
+
+.btn-outline-light {
+    color: gold;
+    border-color: gold;
+}
+
+.btn-outline-light :hover {
+    color: gold;
+   
+}
+
+.clean-card .info {
+    padding: 40px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+	border-top: 2px solid gold;
+}
+
+
+
+.row {
+    --bs-gutter-x:none;
+}
+.clean-block {
+    padding-bottom: 0px; 
+}
+
+.clean-block2 {
+	
+	padding-top: 100px;
+	/* padding-bottom: 50px; */ 
+
+}
