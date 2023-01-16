@@ -1,0 +1,122 @@
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";      
+@import "./footer";
+
+body{
+	overflow-x: hidden !important;
+}
+
+p{
+	font-size: 1.4rem;
+	margin:0 0 24px 0
+}
+
+/*sirve para centrar el mapa */
+.parallas, .main, .texto{margin:0 auto} 
+
+/*sirve para centrar el mapa */
+.texto iframe{
+	width: 100%;
+	border: 2px solid black;  
+  }  
+
+/* espaciado google maps */  
+.texto{
+	padding:5%;   
+	width: 90%;
+}
+
+/*tamaño area mensaje conctato*/
+textarea {
+	height:150px; 
+}
+
+/*color letras menu */
+.clean-navbar .navbar-nav .nav-link {  
+    font-weight: 520;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: gold;
+  }
+  
+  /* color botones */
+  .btn-primary {
+      color: rgb(0, 0, 0);
+      background-color: gold;  
+      border-color: gold;
+  }
+  
+  /* color titulos */
+  .text-info {
+      --bs-text-opacity: 1;  
+      font-weight:normal; 
+      color: gold !important;
+  }
+  
+  /* color borde superior formulario contaco */
+  .clean-block.clean-form form {
+      border-top: 2px solid gold;  
+  }
+  
+  /* imagen logo header */
+  .logo{
+      background: url(../assets/img/logo_final2.jpg);
+      height: 70px;	
+  }   
+  
+  /* centrar titulo Equipo */
+  @mixin clean-block {
+    margin-bottom: 40px;   
+      text-align: center;
+  }
+  .clean-block2 .block-heading {
+    @include clean-block;
+}
+  
+  /*alto imagen de Inicio, variará dependiendo de imagen y texto*/
+  .clean-block.clean-hero {
+      min-height: 300px;      
+  }
+  
+  /* color borde descripción equipo */
+  .card-body {
+      flex: 1 1 auto;
+      padding: 1rem 1rem;
+      border-top: 2px solid gold;  
+  }
+  
+  /* evita espacio en la descripción equipo */
+  .row {
+      --bs-gutter-x:none;   
+  }
+  
+  /* espaciado imagenes - texto en index */
+  .clean-block {
+      padding-bottom: 0px;  
+  }
+  
+  /* espaciado titulo equipo */
+  .clean-block2 {	
+      padding-top: 100px;  
+  }
+  
+  /*Agrega validación al email*/
+  .form-control:invalid {
+      background: rgb(239, 94, 94);   
+      border:none;
+      }
+
+ /* tamaño logo */     
+.clean-navbar .logo {
+    font-size: 1.4rem;
+    }
+
+.text-h2  {
+        font-weight:normal;
+    }   
