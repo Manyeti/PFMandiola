@@ -8524,5 +8524,13 @@ textarea {
 .clean-navbar .logo {
   font-size: 1.4rem; }
 
-.text-h2 {
-  font-weight: normal; }
+/*color y tamaño titulo index*/
+.clean-block.clean-hero h2, .clean-block.clean-hero .h2 {
+  margin-bottom: 30px;
+  font-size: 3.4rem;
+  color: #DED882 !important; }
+
+/*tamaño mision y vision*/
+.feature-box p {
+  font-size: 1.1em;
+  opacity: .8; }
