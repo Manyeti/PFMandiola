@@ -1,0 +1,18 @@
+ /* tamaño logo */     
+ .clean-navbar .logo {
+    font-size: var(--Valor_Font);
+    }
+
+ /* imagen logo header */
+.logo{
+    background: url(../assets/img/logo_final2.jpg);
+    height: 70px;	
+}   
+/*color letras menu */
+.clean-navbar .navbar-nav .nav-link {  
+    font-weight: 520;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--Color_Principal);
+  }
+  

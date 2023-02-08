@@ -1,0 +1,108 @@
+body{
+	overflow-x: hidden !important;
+}
+
+p{
+	font-size: var(--Valor_Font);
+	margin:0 0 24px 0
+}
+
+/*alto imagen de Inicio, variará dependiendo de imagen y texto principal*/
+.clean-block.clean-hero {
+    min-height: 300px; 
+    h2{
+    margin-bottom: 30px;
+    font-size: 4.0rem;
+    color: var(--Color_Principal) !important;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5), 2px -2px 0 rgba(156, 29, 92, 0.9); 
+    }
+  }
+
+
+/*sirve para centrar el mapa */
+.parallas, .main, .texto{margin:0 auto} 
+
+/*sirve para centrar el mapa */
+.texto iframe{
+	width: 100%;
+	border: 2px solid black;  
+  }  
+
+/* espaciado google maps */  
+.texto{
+	padding:5%;   
+	width: 90%;
+}
+
+/*tamaño area mensaje contacto*/
+textarea {
+	height:150px; 
+}
+
+
+  
+  /* color botones */
+  .btn-primary {
+      color: rgb(0, 0, 0);
+      background-color: var(--Color_Principal);  
+      border-color: var(--Color_Principal);
+  }
+  
+  /* color titulos */
+  .text-info {
+      --bs-text-opacity: 1;  
+      font-weight:normal; 
+      color: var(--Color_Titulo) !important;
+  }
+  
+  /* color borde superior formulario contaco */
+  .clean-block.clean-form form {
+      border-top: 2px solid var(--Color_Principal);  
+  }
+  
+ 
+  
+  /* centrar titulo Equipo */
+  @mixin clean-block {
+    margin-bottom: 40px;   
+      text-align: center;
+  }
+  .clean-block2 .block-heading {
+    @include clean-block;
+}
+  
+  /* color borde descripción equipo */
+  .card-body {
+      flex: 1 1 auto;
+      padding: 1rem 1rem;
+      border-top: 2px solid var(--Color_Principal); 
+  }
+  
+  /* evita espacio en la descripción equipo */
+  .row {
+      --bs-gutter-x:none;   
+  }
+  
+  /* espaciado imagenes - texto en index */
+  .clean-block {
+      padding-bottom: 0px;  
+  }
+  
+  /* espaciado titulo equipo */
+  .clean-block2 {	
+      padding-top: 100px;  
+  }
+  
+  /*Agrega validación al email*/
+  .form-control:invalid {
+      background: rgb(239, 94, 94);   
+      border:none;
+      }
+
+
+  
+  /*tamaño mision y vision*/
+  .feature-box p {
+    font-size: 1.1em;
+    opacity: .8;
+  }  
